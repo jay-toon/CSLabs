@@ -1,0 +1,17 @@
+/* Theme: Light */
+    * {
+        color: #1f1f1f;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        color: #1f1f1f;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #0000004b;
+        color: #fff;
+    }
+
