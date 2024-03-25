@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded', function() { // Once the webpage h
     }
 });
 
-window.addEventListener('beforeunload', function() {
-    localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+window.addEventListener('beforeunload', function() { // Before the current page is unloaded, save the theme to local storage
+    localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark'); // Ternary operator to save theme in one line
 });
