@@ -4,14 +4,21 @@
     }
 
     body {
-        background-color: #f4f4f4;
+        background-color: #f4f4f4e0;
         color: #1f1f1f;
         margin: 0;
         padding: 0;
     }
 
-    nav {
-        background-color: #0000004b;
-        color: #fff;
+    header {
+        color: #ffffff;
     }
 
+    nav ul {
+        background-color: #0000004b;
+    }
+
+    nav ul li a {
+        border-color: 2px solid black;
+        color: #ffffff;
+    }
