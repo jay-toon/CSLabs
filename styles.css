@@ -64,16 +64,17 @@
         margin-right: 10px;
     }
 
-    .CSLabs div p, .CSLabs div svg {
+    .CSLabs div svg, .switch, .CSLabs div p {
         margin-inline: 20px;
+        color: #fff;
     }
 
     .CSLabs {
         background-color: #1C2238;
     }
 
-    .CSLabs a, p, nav ul li a{
-        color: white;
+    .CSLabs a, .CSLabs div h2, nav ul li a {
+        color: #fff;
     }
 
     /* Light / Dark Mode */
