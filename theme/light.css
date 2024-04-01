@@ -14,15 +14,11 @@
         color: #ffffff;
     }
 
-    nav ul {
-        background-color: #0000004b;
-    }
-
     nav ul li a {
-        border-color: 2px solid black;
+        border-color: 2px solid 1f1f1f;
         color: #ffffff;
     }
 
-    main h1 {
-        color: #000000;
+    content h1 {
+        color: #1f1f1f;
     }
