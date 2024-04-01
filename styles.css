@@ -16,6 +16,10 @@
         background-color: #1f1f1f;
     }
 
+    nav {
+        box-shadow: 0px 0px 10px #000;
+    }
+
     nav ul { 
         height: 7.5vh;
         background-color: #0000004b;
@@ -144,4 +148,154 @@
 
     .slider.round:before {
         border-radius: 50%;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 64px;
+    }
+
+    aside {
+        background-color: #1C2238;
+        margin-top: 0;
+        padding-inline: 5%;
+        padding-top: 5%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightSide {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .leftSide {
+        width: 50%;
+        margin-left: 50%;
+    }
+    
+    aside h1, aside p{
+        color: white !important;
+    }
+
+    aside p {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .background {
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    /* Contact Form */
+
+    .frosted-glass {
+        background-color: #1c223880;
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        padding: 2.5%;
+        padding-inline: 5%;
+        width: 50%;
+        height: 75%;
+        border: 2px solid white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .frosted-glass p, h1{
+        color: #ffffffff;
+    }
+
+    .frosted-glass form { 
+        padding: 0;
+    }
+
+    .frosted-glass p {
+        margin-inline: 10%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        max-width: 500px;
+        min-width: 250px;
+        width: 100%;
+        flex-wrap: wrap;    
+    }
+
+    input[type="text"], input[type="email"] {
+        padding: 5px;
+        background-color: transparent;
+        border-bottom: 2px solid #fff !important;
+        border: 0px;
+        margin-top: 5%;
+        margin-inline: 5%;
+        width: 35%;
+    }
+
+    form input[type="text"] {
+        margin-top: 5%;
+    }
+
+    #subject {
+        width: 77.5%;
+        margin-right: 10%;
+        border-bottom: 2px solid white;
+        padding-left: 5px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .frosted-glass svg {
+        fill: white;
+    }
+
+    textarea {
+        padding: 5px;
+        margin-top: 5px;
+        background-color: transparent;
+        border: 2px solid #fff !important;
+        border-radius: 10px;
+        border: 0px;
+        width: 77.5%;
+        height: 100px;
+        margin-top: 10%;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    textarea::placeholder, input::placeholder{
+        color: #fff;
+    }
+
+    .weirdBTN {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mission-statement {
+        color: white;
+        font-variant: small-caps;
     }

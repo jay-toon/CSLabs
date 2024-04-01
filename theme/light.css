@@ -22,3 +22,7 @@
         border-color: 2px solid black;
         color: #ffffff;
     }
+
+    main h1 {
+        color: #000000;
+    }
