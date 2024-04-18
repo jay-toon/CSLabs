@@ -1,0 +1,50 @@
+#ide-run {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+#ide-run:hover {
+    background-color: #204921;
+    transition-duration: 500ms;
+}
+
+#ide-reset {
+    background-color: #af4c4c; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition-duration: 350ms;
+}
+
+#ide-reset:hover {
+    background-color: #4c2020;
+    transition-duration: 350ms;
+}
+
+.editor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editor textarea {
+    width: 80%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+
+    font-family: consolas;
+}
