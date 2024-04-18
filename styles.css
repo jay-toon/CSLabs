@@ -404,10 +404,13 @@
         }
     }
     
-    header {
-        box-shadow: 0px 0px 20px #000;
-        position: sticky;
-        z-index: 1;
-        top: 0;
+    /* Do I want it sticky? Mobile Optimisation for now.. */
+    @media (max-width: 768px) {
+        header {
+            box-shadow: 0px 0px 20px #000;
+            position: sticky;
+            z-index: 1;
+            top: 0;
+        }
     }
 
