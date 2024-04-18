@@ -56,6 +56,11 @@
         padding-inline: 20px;
         display: flex;
         justify-content: space-between;
+
+        box-shadow: 0px 0px 20px #000;
+        position: sticky;
+        z-index: 1;
+        top: 0;
     }
 
     .CSLabs svg {
@@ -159,6 +164,7 @@
         display: flex;
         justify-content: center;
     }
+
     h1 {
         font-size: 64px;
     }
@@ -204,12 +210,14 @@
     .frosted-glass {
         background-color: #1c223880;
         backdrop-filter: blur(5px);
+        margin-top: 5%;
         border-radius: 10px;
         padding: 2.5%;
         padding-inline: 5%;
-        width: 50%;
-        height: 75%;
+        width: 30%;
+        height: 60%;
         border: 2px solid white;
+        text-align: center;
 
         display: flex;
         flex-direction: column;
@@ -226,14 +234,13 @@
     }
 
     .frosted-glass p {
-        margin-inline: 10%;
+        margin-inline: 5%;
     }
 
     form {
         display: flex;
         flex-direction: row;
-        max-width: 500px;
-        min-width: 250px;
+        justify-content: space-evenly;
         width: 100%;
         flex-wrap: wrap;    
     }
@@ -253,8 +260,8 @@
     }
 
     #subject {
-        width: 77.5%;
-        margin-right: 10%;
+        width: 100%;
+        margin-inline: 7.5%;
         border-bottom: 2px solid white;
         padding-left: 5px;
         border-bottom-right-radius: 0px;
@@ -266,14 +273,14 @@
 
     textarea {
         padding: 5px;
-        margin-top: 5px;
+        margin-top:7.5%;
         background-color: transparent;
         border: 2px solid #fff !important;
         border-radius: 10px;
+        margin-inline: 7.5%;
+        width: 100%;
         border: 0px;
-        width: 77.5%;
         height: 100px;
-        margin-top: 10%;
     }
 
     button[type="submit"] {
@@ -284,6 +291,7 @@
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        margin-bottom: 30%;
     }
 
     button[type="submit"]:hover {
@@ -293,14 +301,7 @@
     textarea::placeholder, input::placeholder{
         color: #fff;
     }
-
-    .weirdBTN {
-        width: 100%;
-        margin-top: 5%;
-        display: flex;
-        justify-content: center;
-    }
-
+w
     .mission-statement {
         font-size: 24px;
         color: white;
@@ -413,4 +414,3 @@
             top: 0;
         }
     }
-
