@@ -301,7 +301,7 @@
     textarea::placeholder, input::placeholder{
         color: #fff;
     }
-w
+-w- why is the one that just so  happens to be me happens to be le developer, solely hating web dev, html5, css3, js forever and ever, amen
     .mission-statement {
         font-size: 24px;
         color: white;
@@ -408,9 +408,19 @@ w
     /* Do I want it sticky? Mobile Optimisation for now.. */
     @media (max-width: 768px) {
         header {
+            width: 100vw;
+            padding:0%;
             box-shadow: 0px 0px 20px #000;
             position: sticky;
             z-index: 1;
             top: 0;
+        }
+
+        .frosted-glass {
+            width: 80%;
+        }
+
+        .frosted-glass h1 {
+            font-size: 24px;
         }
     }
